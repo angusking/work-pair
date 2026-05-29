@@ -1,0 +1,2 @@
+"""KPI analyzer package."""
+

@@ -1,0 +1,50 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and editor local files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local agent/tooling config
+.ai/
+.codex/
+
+# Generated runs, logs, and reports
+runs/
+logs/
+*.log
+*.tmp
+*.bak
+
+# Project-generated outputs
+KPICalculate/output/
+MockWork/runs/
+
+# Keep committed example reports in top-level scenario folders.
+!合同管理软件/
+!汉服营销/

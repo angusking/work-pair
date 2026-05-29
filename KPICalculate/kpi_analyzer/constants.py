@@ -1,0 +1,26 @@
+INPUT_DIR = "input"
+OUTPUT_DIR = "output"
+PROMPTS_DIR = "prompts"
+
+CONCURRENCY = 3
+MAX_RETRIES = 3
+TIMEOUT_SECONDS = 120
+TEMPERATURE = 0
+MAX_PAIRS_PER_LLM_CALL = 10
+
+REVIEWER_HRBP = "hrbp"
+REVIEWER_BUSINESS = "business_lead"
+REVIEWERS = (REVIEWER_HRBP, REVIEWER_BUSINESS)
+
+MODE_DIRECT = "direct"
+MODE_DIMENSIONS = "dimensions"
+MODE_REVIEWERS = "reviewers"
+MODE_DIMENSIONS_REVIEWERS = "dimensions_reviewers"
+
+MODE_LABELS = {
+    MODE_DIRECT: "直接比较",
+    MODE_DIMENSIONS: "绩效维度比较",
+    MODE_REVIEWERS: "评价官比较",
+    MODE_DIMENSIONS_REVIEWERS: "绩效维度 + 评价官比较",
+}
+
